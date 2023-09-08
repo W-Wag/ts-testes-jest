@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:silence": "jest --watchAll --silent --noStackTrace",
     "build": "tsc"
   },
   "keywords": [],
