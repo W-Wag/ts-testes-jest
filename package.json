@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:silence": "jest --watchAll --silent --noStackTrace",
+    "test:coverage": "jest --coverage --silent --noStackTrace",
     "build": "tsc"
   },
   "keywords": [],
